@@ -3,9 +3,18 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Basic//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-basic.dtd" [
 	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
 ]>
-<svg version="1.1" baseProfile="basic"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
-	 x="0px" y="0px" width="40px" height="40px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
+<svg version="1.1" 
+	baseProfile="basic"
+	xmlns="http://www.w3.org/2000/svg" 
+	xmlns:xlink="http://www.w3.org/1999/xlink" 
+	xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	x="0px" 
+	y="0px" 
+	width="40px" 
+	height="40px" 
+	viewBox="0 0 40 40" 
+	enable-background="new 0 0 40 40" 
+	xml:space="preserve">
 <defs>
 </defs>
 <path fill="#FFFFFF" d="M37.719,35.952H2.437c-0.581,0-1.051-0.551-1.051-1.229V5.292c0-0.684,0.47-1.238,1.051-1.238h35.282

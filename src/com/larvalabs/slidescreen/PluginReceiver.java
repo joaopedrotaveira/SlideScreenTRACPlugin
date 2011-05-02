@@ -70,9 +70,8 @@ public abstract class PluginReceiver extends BroadcastReceiver {
             markedAsRead(itemId);
         }
 
-
     }
-
+    
     public abstract Uri getContentProviderURI();
 
     public abstract String getName();

@@ -1,4 +1,4 @@
-package com.taveiranet.slidescreen.k9;
+package com.taveiranet.slidescreen.trac;
 
 import android.content.ComponentName;
 import android.content.Intent;
@@ -7,7 +7,6 @@ import android.net.Uri;
 import android.util.Log;
 
 import com.larvalabs.slidescreen.PluginReceiver;
-import com.taveiranet.slidescreen.k9.R;
 
 /**
  * @author João Pedro Taveira
@@ -18,23 +17,22 @@ public class SlidescreenReceiver extends PluginReceiver {
 
     @Override
     public int getColor() {
-        return Color.rgb(255, 0, 0);
+        return Color.rgb(194, 0, 0);
     }
 
     @Override
     public Uri getContentProviderURI() {
-        return SlideK9ContentProvider.CONTENT_URI;
+        return SlideTracContentProvider.CONTENT_URI;
     }
 
-    
     @Override
     public String getName() {
-        return "K-9 Plugin";
+        return "Trac Plugin";
     }
 
     @Override
     public int getIconResourceId() {
-        return R.raw.mail;
+        return R.raw.trac;
     }
 
     @Override
@@ -56,8 +54,8 @@ public class SlidescreenReceiver extends PluginReceiver {
     @Override
     public Intent getPreferenceActivityIntent() {
     	Intent prefs = new Intent(Intent.ACTION_MAIN);
-        prefs.setComponent(new ComponentName("com.taveiranet.slidescreen.k9",
-                "com.taveiranet.slidescreen.k9.preference.SlideK9PluginPreferences"));
+        prefs.setComponent(new ComponentName("com.taveiranet.slidescreen.trac",
+                "com.taveiranet.slidescreen.trac.preference.SlideTracPluginPreferences"));
         return prefs;
     }
 

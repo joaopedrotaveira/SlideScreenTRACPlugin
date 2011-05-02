@@ -1,9 +1,9 @@
-package com.taveiranet.slidescreen.k9.preference;
+package com.taveiranet.slidescreen.trac.preference;
 
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
 
-import com.taveiranet.slidescreen.k9.R;
+import com.taveiranet.slidescreen.trac.R;
 
 public class AboutActivity extends PreferenceActivity {
     
